@@ -1,0 +1,255 @@
+<div class="mt-[18px]">
+            <!--Tabs navigation-->
+            <ul
+              class="flex list-none flex-row flex-wrap justify-center border-b-0 pl-0"
+              role="tablist"
+              data-te-nav-ref
+            >
+              <li role=" presentation flex-column ">
+                <i class="bi bi-airplane text-2xl"></i>
+                <a
+                  href="#!"
+                  class="block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xl font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                  data-te-nav-active
+                  role="tab"
+                  aria-selected="true"
+                  >پرواز داخلی</a
+                >
+              </li>
+              <li role=" presentation flex-column">
+                <i class="bi bi-airplane text-2xl"></i>
+                <a
+                  href="#!"
+                  class="block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xl font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                  data-te-nav-active
+                  role="tab"
+                  aria-selected="true"
+                  >پرواز خارجی</a
+                >
+              </li>
+              <li role=" presentation flex-column ">
+                <i class="bi bi-train-lightrail-front text-2xl"></i>
+                <a
+                  href="#!"
+                  class="block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xl font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                  data-te-nav-active
+                  role="tab"
+                  aria-selected="true"
+                  >قطار</a
+                >
+              </li>
+              <li role=" presentation flex-column">
+                <i class="bi bi-bus-front-fill text-2xl"></i>
+                <a
+                  href="#!"
+                  class="block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xl font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                  data-te-nav-active
+                  role="tab"
+                  aria-selected="true"
+                  >اتوبوس</a
+                >
+              </li>
+              <li role=" presentation flex-column">
+                <i class="bi bi-backpack2 text-2xl"></i>
+                <a
+                  href="#!"
+                  class="block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xl font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                  data-te-nav-active
+                  role="tab"
+                  aria-selected="true"
+                  >تور</a
+                >
+              </li>
+              <li role=" presentation flex-column">
+                <i class="bi bi-buildings text-2xl"></i>
+                <a
+                  href="#!"
+                  class="block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xl font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                  data-te-nav-active
+                  role="tab"
+                  aria-selected="true"
+                  >هتل</a
+                >
+              </li>
+              <li role=" presentation flex-column">
+                <i class="bi bi-house text-2xl"></i>
+                <a
+                  href="#!"
+                  class="block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xl font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                  data-te-nav-active
+                  role="tab"
+                  aria-selected="true"
+                  >ویلا و اقامتگاه</a
+                >
+              </li>
+            </ul>
+          </div>
+          <hr
+            class="mt-[4px] h-1 w-full rounded border-0 bg-gray-100 dark:bg-gray-700"
+          />
+          <div class="mt-6 block w-11/12 sm:mr-6 md:w-full">
+            <button
+              id="dropdownDefaultButton"
+              data-dropdown-toggle="dropdown"
+              class="right-0 inline-flex items-center rounded-full border-solid bg-white px-3 py-0.5 text-center text-lg font-medium text-black outline outline-2 outline-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200"
+              type="button"
+            >
+              یک طرفه
+              <svg
+                class="ms-3 h-2.5 w-2.5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </button>
+
+            <!-- Dropdown menu -->
+            <div
+              id="dropdown"
+              class="w-30 z-10 hidden divide-y divide-gray-100 rounded bg-white shadow outline-1 dark:bg-gray-700"
+            >
+              <ul
+                class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                aria-labelledby="dropdownDefaultButton"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >یک طرفه</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >رفت و برگشت</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <a href="">
+                <button
+                  class="relative -z-20 flex flex-wrap items-center rounded-3xl border-2 bg-white text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600"
+                >
+                  <div class="w-full flex-wrap items-center pl-5">
+                    <!-- Dropdown -->
+                    <div class="relative ml-2" dir="rtl" data-te-dropdown-ref>
+                      <ul
+                        class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+                        aria-labelledby="dropdownMenuButton2"
+                        data-te-dropdown-menu-ref
+                      >
+                        <li>
+                          <a
+                            class="w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                            href="#"
+                            data-te-dropdown-item-ref
+                            >یک طرفه</a
+                          >
+                        </li>
+                        <hr />
+                        <li>
+                          <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                            href="#"
+                            data-te-dropdown-item-ref
+                            >رفت و برگشت</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </button>
+              </a>
+
+              <!-- 4 box -->
+              <div class="mb-8 !flex  h-auto items-center justify-center gap-4 w-8/12 md:w-full">
+                <!-- box num1 -->
+                <div class="flex h-20 items-center justify-center">
+                  <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+                  <div class="mt-5 flex bg-white text-left">
+                    <div
+                      class="rounded-br-xl rounded-tr-xl border border-secondary-600 p-2 "
+                    >
+                      <p class="w-40 text-center text-secondary-600">
+                        (شهر)مقصد
+                      </p>
+                    </div>
+                  </div>
+                  <span>
+                    <button
+                      class="btn-light mt-6 h-fit border-b border-t border-secondary-500 p-2"
+                    >
+                      <i
+                        class="bi bi-arrow-left-right flex items-center justify-center text-secondary-600"
+                      ></i>
+                    </button>
+                  </span>
+                  <div class="mt-5 flex bg-white text-left">
+                    <div
+                      class="rounded-bl-xl rounded-tl-xl border border-secondary-600 p-2 pl-4"
+                    >
+                      <p class="w-40 text-center text-secondary-600">
+                        (شهر)مقصد
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box num2 -->
+                <div class="flex h-20 items-center justify-center">
+                  <div class="mt-5 flex bg-white text-left">
+                    <div
+                      class="w-24 rounded-br-xl rounded-tr-xl border border-secondary-600 p-2"
+                    >
+                      <p class="text-center text-secondary-600">تاریخ رفت</p>
+                    </div>
+                  </div>
+                  <div
+                    class="mt-5 flex h-20 items-center justify-center bg-white text-center"
+                  >
+                    <div
+                      class="w-28 rounded-bl-xl rounded-tl-xl border border-secondary-600 p-2"
+                    >
+                      <p class="text-secondary-600">تاریخ برگشت</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box num3 -->
+                <div class="flex h-20 items-center justify-center">
+                  <div class="mt-5 flex bg-white text-left">
+                    <div
+                      class="w-28 rounded-r-xl rounded-bl-xl rounded-tl-xl border border-secondary-600 p-2 pl-4"
+                    >
+                      <p class="text-center text-secondary-600">مسافران</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box num4 -->
+                <div class="flex h-20 items-center justify-center">
+                  <div
+                    class="mt-5 flex h-20 items-center justify-center text-center"
+                  >
+                    <div
+                      class="w-28 rounded-r-xl rounded-bl-xl rounded-tl-xl border border-secondary-600 bg-yellow-500 p-2 pl-4"
+                    >
+                      <p class="text-center text-black">جستجو</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>

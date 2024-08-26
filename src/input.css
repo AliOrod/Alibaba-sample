@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: alibaba;
+  src: url(./fonts/Alibaba-Regular.woff2);
+}
+::-webkit-scrollbar: {
+  display: "none";
+}

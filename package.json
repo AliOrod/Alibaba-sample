@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "cssnano": "^6.1.2",
+    "daisyui": "^4.10.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tw-elements": "^2.0.0",
+    "unocss-preset-scrollbar-hide": "^1.0.1"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  }
+}
